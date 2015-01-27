@@ -2,7 +2,10 @@
   "name": "modella-nedb",
   "version": "0.1.0",
   "description": "NeDB persistence adapter for modella",
-  "keywords": ["nedb", "modella"],
+  "keywords": [
+    "nedb",
+    "modella"
+  ],
   "author": "Luke Vivier <luke@vivier.ca>",
   "repository": {
     "type": "git",
@@ -14,7 +17,8 @@
     "test": "mocha"
   },
   "dependencies": {
-    "nedb": "^0.11.1"
+    "nedb": "^0.11.1",
+    "bluebird": "~2.9.3"
   },
   "devDependencies": {
     "mocha": "^2.0.1",
